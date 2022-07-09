@@ -498,19 +498,19 @@ class ModsMenuState extends MusicBeatState
 			}
 		}
 
-		if(controls.UI_UP_P)
+		if(controls.UI_UP_P && !noModsTxt.visible)
 		{
 			changeSelection(-1);
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
-		if(controls.UI_DOWN_P)
+		if(controls.UI_DOWN_P && !noModsTxt.visible)
 		{
 			changeSelection(1);
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
-		if(FlxG.mouse.wheel != 0)
+		if(FlxG.mouse.wheel != 0 && !noModsTxt.visible)
 			{
-				if(!noModsTxt.visible) FlxG.sound.play(Paths.sound('scrollMenu'), 0.2);
+				FlxG.sound.play(Paths.sound('scrollMenu'), 0.2);
 				changeSelection(-FlxG.mouse.wheel);
 			}
 		updatePosition(elapsed);
