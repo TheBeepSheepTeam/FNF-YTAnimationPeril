@@ -5,6 +5,7 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
+import WeekData;
 
 class MenuItem extends FlxSprite
 {
@@ -41,7 +42,7 @@ class MenuItem extends FlxSprite
 			flashingInt += 1;
 
 		if (flashingInt % fakeFramerate >= Math.floor(fakeFramerate / 2))
-			color = 0xFF33ffff;
+			color = FlxColor.fromRGB(WeekData.storyModeFlashing[0], WeekData.storyModeFlashing[1], WeekData.storyModeFlashing[2]);
 		else
 			color = FlxColor.WHITE;
 	}
