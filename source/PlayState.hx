@@ -2243,9 +2243,11 @@ class PlayState extends MusicBeatState
 							});
 						}
 					case 4:
-						if (countdownGo.animation.curAnim.finished) {
-							remove(countdownGo);
-							countdownGo.destroy();
+						if (!PlayState.isPixelStage) {
+							if (countdownGo.animation.curAnim.finished) {
+								remove(countdownGo);
+								countdownGo.destroy();
+							}
 						}
 				}
 
