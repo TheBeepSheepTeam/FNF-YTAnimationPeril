@@ -2210,8 +2210,10 @@ class PlayState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
-						if (!PlayState.isPixelStage)
+						if (!PlayState.isPixelStage) {
+							countdownGo.frames = Paths.getSparrowAtlas('go');
 							countdownGo.animation.addByPrefix('idle', 'GO!!', 24, false);
+						}
 
 						countdownGo.cameras = [camHUD];
 						countdownGo.scrollFactor.set();
