@@ -16,4 +16,5 @@
 	<SubTexture name="GO!!0011" x="505" y="437" width="305" height="234" frameX="-127" frameY="-97" frameWidth="559" frameHeight="429"/>
 	<SubTexture name="GO!!0012" x="818" y="437" width="128" height="98" frameX="-215" frameY="-165" frameWidth="559" frameHeight="429"/>
 	<SubTexture name="GO!!0013" x="954" y="437" width="63" height="48" frameX="-248" frameY="-190" frameWidth="559" frameHeight="429"/>
+	<SubTexture name="GO!!0014" x="1025" y="437" width="1" height="1" frameX="-248" frameY="-190" frameWidth="559" frameHeight="429"/>
 </TextureAtlas>

@@ -2232,12 +2232,7 @@ class PlayState extends MusicBeatState
 						if (!PlayState.isPixelStage)
 							countdownGo.animation.play('idle');
 
-						if (!PlayState.isPixelStage) {
-							if (countdownGo.animation.curAnim.finished) {
-								remove(countdownGo);
-								countdownGo.destroy();
-							}
-						} else {
+						if (PlayState.isPixelStage) {
 							FlxTween.tween(countdownGo, {alpha: 0}, Conductor.crochet / 1000, {
 								ease: FlxEase.cubeInOut,
 								onComplete: function(twn:FlxTween)
@@ -2248,6 +2243,10 @@ class PlayState extends MusicBeatState
 							});
 						}
 					case 4:
+						if (countdownGo.animation.curAnim.finished) {
+							remove(countdownGo);
+							countdownGo.destroy();
+						}
 				}
 
 				notes.forEachAlive(function(note:Note) {
