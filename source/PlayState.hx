@@ -2209,6 +2209,7 @@ class PlayState extends MusicBeatState
 						});
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
+						// to-do: find a way to use less lines -dmm
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
 						if (!PlayState.isPixelStage) {
 							countdownGo.frames = Paths.getSparrowAtlas('go');
@@ -2226,12 +2227,26 @@ class PlayState extends MusicBeatState
 						countdownGo.screenCenter();
 						countdownGo.antialiasing = antialias;
 						insert(members.indexOf(notes), countdownGo);
-						if (countdownGo.animation.curAnim.finished) {
-							remove(countdownGo);
-							countdownGo.destroy();
-						}
+
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
-						countdownGo.animation.play('idle');
+						if (!PlayState.isPixelStage)
+							countdownGo.animation.play('idle');
+
+						if (!PlayState.isPixelStage) {
+							if (countdownGo.animation.curAnim.finished) {
+								remove(countdownGo);
+								countdownGo.destroy();
+							}
+						} else {
+							FlxTween.tween(countdownGo, {alpha: 0}, Conductor.crochet / 1000, {
+								ease: FlxEase.cubeInOut,
+								onComplete: function(twn:FlxTween)
+								{
+									remove(countdownGo);
+									countdownGo.destroy();
+								}
+							});
+						}
 					case 4:
 				}
 
