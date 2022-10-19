@@ -2210,6 +2210,7 @@ class PlayState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
 						// to-do: find a way to use less lines -dmm
+						// to-do 2: compatibility for image without xml -dmm
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
 						if (!PlayState.isPixelStage) {
 							countdownGo.frames = Paths.getSparrowAtlas('go');
