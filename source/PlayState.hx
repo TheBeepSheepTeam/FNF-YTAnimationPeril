@@ -2226,14 +2226,10 @@ class PlayState extends MusicBeatState
 						countdownGo.screenCenter();
 						countdownGo.antialiasing = antialias;
 						insert(members.indexOf(notes), countdownGo);
-						FlxTween.tween(countdownGo, {alpha: 1}, Conductor.crochet / 1000, {
-							ease: FlxEase.cubeInOut,
-							onComplete: function(twn:FlxTween)
-							{
-								remove(countdownGo);
-								countdownGo.destroy();
-							}
-						});
+						if (countdownGo.animation.curAnim.finished) {
+							remove(countdownGo);
+							countdownGo.destroy();
+						}
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						countdownGo.animation.play('idle');
 					case 4:
