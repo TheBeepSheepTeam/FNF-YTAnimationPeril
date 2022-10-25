@@ -252,6 +252,8 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.instance.botplayTxt.alpha = 1;
 					PlayState.instance.botplaySine = 0;
 				case "Exit to menu":
+					PlayState.instance.callOnLuas('onExitSong', []);
+					PlayState.exitingsong = true;
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 
