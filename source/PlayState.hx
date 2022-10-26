@@ -3076,6 +3076,8 @@ class PlayState extends MusicBeatState
 			iconP2.animation.curAnim.curFrame = 0;
 
 		if (FlxG.keys.anyJustPressed(debugKeysCharacter) && !endingSong && !inCutscene) {
+			callOnLuas('onExitSong', []);
+			exitingsong = true;
 			persistentUpdate = false;
 			paused = true;
 			cancelMusicFadeTween();
@@ -3353,6 +3355,8 @@ class PlayState extends MusicBeatState
 
 	function openChartEditor()
 	{
+		callOnLuas('onExitSong', []);
+		exitingsong = true;
 		persistentUpdate = false;
 		paused = true;
 		cancelMusicFadeTween();
