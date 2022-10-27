@@ -1392,6 +1392,15 @@ class FunkinLua {
 		Lua_helper.add_callback(lua, "getHits", function() {
 			return PlayState.instance.songHits;
 		});
+		Lua_helper.add_callback(lua, "getHighscore", function(song:String, diff:Int) {
+			return Highscore.getScore(song, diff);
+		});
+		Lua_helper.add_callback(lua, "getSavedRating", function(song:String, diff:Int) {
+			return Highscore.getRating(song, diff);
+		});
+		Lua_helper.add_callback(lua, "getWeekScore", function(week:String, diff:Int) {
+			return Highscore.getWeekScore(week, diff);
+		});
 
 		Lua_helper.add_callback(lua, "setHealth", function(value:Float = 0) {
 			PlayState.instance.health = value;
@@ -1402,7 +1411,7 @@ class FunkinLua {
 		Lua_helper.add_callback(lua, "getHealth", function() {
 			return PlayState.instance.health;
 		});
-
+		
 		Lua_helper.add_callback(lua, "getColorFromHex", function(color:String) {
 			if(!color.startsWith('0x')) color = '0xff' + color;
 			return Std.parseInt(color);
@@ -2537,6 +2546,14 @@ class FunkinLua {
 				return;
 			}
 			luaTrace('setDataFromSave: Save file not initialized: ' + name, false, false, FlxColor.RED);
+		});
+		Lua_helper.add_callback(lua, "deleteDataFromSave", function(name:String) {
+			if(PlayState.instance.modchartSaves.exists(name))
+			{
+				PlayState.instance.modchartSaves.get(name).erase();
+				return;
+			}
+			luaTrace('deleteDataFromSave: Save file not initialized: ' + name, false, false, FlxColor.RED);
 		});
 
 		Lua_helper.add_callback(lua, "checkFileExists", function(filename:String, ?absolute:Bool = false) {
