@@ -1567,7 +1567,7 @@ class FunkinLua {
 		});
 		Lua_helper.add_callback(lua, "exitSong", function(?skipTransition:Bool = false) {
 			PlayState.instance.callOnLuas('onExitSong', []);
-			PlayState.exitingsong = true;
+			PlayState.exitingSong = true;
 			if(skipTransition)
 			{
 				FlxTransitionableState.skipNextTransIn = true;
