@@ -172,7 +172,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 						if(pressed) {
 							var add:Dynamic = null;
 							if(curOption.type != 'string') {
-								add = controls.UI_LEFT ? -curOption.changeValue : curOption.changeValue;
+								add = curOption.changeValue * (controls.UI_LEFT ? -1 : 1);
 							}
 
 							switch(curOption.type)

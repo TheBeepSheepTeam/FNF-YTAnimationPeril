@@ -63,6 +63,10 @@ class OptionsState extends MusicBeatState
 		DiscordClient.changePresence("Options Menu", null);
 		#end
 
+		#if MODS_ALLOWED
+			if (!Paths.optionsExist()) options.remove('Mod Options');
+		#end
+
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.color = 0xFFea71fd;
 		bg.updateHitbox();

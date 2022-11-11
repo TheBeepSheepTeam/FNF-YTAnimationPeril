@@ -45,9 +45,6 @@ class ModOptionSelectState extends MusicBeatState
 		}
 	}
 
-	var selectorLeft:Alphabet;
-	var selectorRight:Alphabet;
-
 	override function create() {
 		#if desktop
 		DiscordClient.changePresence("Mod Menu", null);
@@ -55,6 +52,12 @@ class ModOptionSelectState extends MusicBeatState
 
         mods = Paths.getModDirectories();
         mods.insert(0, 'Global');
+
+		for (mod in mods) {
+			if (!Paths.optionsExist(mod == 'Global' ? '' : mod)) {
+				mods.remove(mod);
+			}
+		}
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.color = 0xFFea71fd;
@@ -71,14 +74,17 @@ class ModOptionSelectState extends MusicBeatState
 		{
 			var optionText:Alphabet = new Alphabet(0, 0, mods[i], true);
 			optionText.screenCenter();
-			optionText.y += (100 * (i - (mods.length / 2))) + 50;
+			optionText.y += (80 * i) + 50;
+
+			optionText.isMenuItem = true;
+			optionText.targetY = i;
+			optionText.alignment = CENTERED;
+			optionText.distancePerItem.x = 0;
+			optionText.startPosition.x = FlxG.width / 2;
+			optionText.startPosition.y = 100;
+
 			grpOptions.add(optionText);
 		}
-
-		selectorLeft = new Alphabet(0, 0, '>', true);
-		add(selectorLeft);
-		selectorRight = new Alphabet(0, 0, '<', true);
-		add(selectorRight);
 
 		changeSelection();
 
@@ -128,10 +134,6 @@ class ModOptionSelectState extends MusicBeatState
 			item.alpha = 0.6;
 			if (item.targetY == 0) {
 				item.alpha = 1;
-				selectorLeft.x = item.x - 63;
-				selectorLeft.y = item.y;
-				selectorRight.x = item.x + item.width + 15;
-				selectorRight.y = item.y;
 			}
 		}
 		FlxG.sound.play(Paths.sound('scrollMenu'));
