@@ -9,8 +9,6 @@ import flixel.system.FlxSound;
 #if sys
 import sys.io.File;
 import sys.FileSystem;
-#else
-import openfl.utils.Assets;
 #end
 
 using StringTools;
@@ -52,6 +50,29 @@ class CoolUtil
 	public static function difficultyString():String
 	{
 		return difficulties[PlayState.storyDifficulty].toUpperCase();
+	}
+
+	public static function checkJsonFilePath(song:String, diff:String, diffNum:Int)
+	{
+		var realJson:Bool = false;
+		var jsonPath:String = song + '/' + song + diff;
+		var newDiff:String = null;
+
+		#if sys
+		#if MODS_ALLOWED
+		realJson = FileSystem.exists(Paths.json(jsonPath)) || FileSystem.exists(Paths.modsJson(jsonPath));
+		#else
+		realJson = FileSystem.exists(Paths.json(jsonPath));
+		#end
+		#else
+		realJson = Assets.exists(Paths.json(jsonPath));
+		#end
+
+		if (!realJson)
+		{
+			if (diff.length > 0) newDiff = '' else newDiff = '-' + CoolUtil.difficulties[diffNum];
+		}
+		return newDiff;
 	}
 
 	inline public static function boundTo(value:Float, min:Float, max:Float):Float {

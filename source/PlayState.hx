@@ -4002,6 +4002,9 @@ class PlayState extends MusicBeatState
 				else
 				{
 					var difficulty:String = CoolUtil.getDifficultyFilePath();
+					
+					var newDiff:String = CoolUtil.checkJsonFilePath(PlayState.storyPlaylist[0].toLowerCase(), difficulty, storyDifficulty);
+					if(newDiff != null) difficulty = newDiff;
 
 					trace('LOADING NEXT SONG');
 					trace(Paths.formatToSongPath(PlayState.storyPlaylist[0]) + difficulty);
@@ -4040,9 +4043,9 @@ class PlayState extends MusicBeatState
 			}
 			else
 			{
-				trace('WENT BACK TO FREEPLAY??');
 				callOnLuas('onExitSong', []);
 				exitingSong = true;
+				trace('WENT BACK TO FREEPLAY??');
 				WeekData.loadTheFirstEnabledMod();
 				cancelMusicFadeTween();
 				if(FlxTransitionableState.skipNextTransIn) {
