@@ -328,7 +328,7 @@ class StoryMenuState extends MusicBeatState
 			var diffic = CoolUtil.getDifficultyFilePath(curDifficulty);
 			if(diffic == null) diffic = '';
 
-			var newDiff:String = CoolUtil.checkJsonFilePath(PlayState.storyPlaylist[0].toLowerCase(), diffic, curDifficulty);
+			var newDiff:String = CoolUtil.checkJsonFilePath(Paths.formatToSongPath(PlayState.storyPlaylist[0]), diffic, curDifficulty);
 			if(newDiff != null) diffic = newDiff;
 
 			PlayState.storyDifficulty = curDifficulty;

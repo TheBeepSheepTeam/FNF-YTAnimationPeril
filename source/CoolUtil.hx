@@ -60,7 +60,7 @@ class CoolUtil
 
 		#if sys
 		#if MODS_ALLOWED
-		realJson = FileSystem.exists(Paths.json(jsonPath)) || FileSystem.exists(Paths.modsJson(jsonPath));
+		realJson = FileSystem.exists(Paths.modsJson(jsonPath)) || FileSystem.exists(Paths.json(jsonPath));
 		#else
 		realJson = FileSystem.exists(Paths.json(jsonPath));
 		#end

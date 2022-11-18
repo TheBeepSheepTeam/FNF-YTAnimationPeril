@@ -1653,6 +1653,7 @@ class PlayState extends MusicBeatState
 			precacheList.set('dialogue', 'sound');
 			precacheList.set('dialogueClose', 'sound');
 			psychDialogue = new DialogueBoxPsych(dialogueFile, song);
+			PlayState.instance.callOnLuas('onStartDialogue', [dialogueFile]);
 			psychDialogue.scrollFactor.set();
 			if(endingSong) {
 				psychDialogue.finishThing = function() {
@@ -4003,7 +4004,7 @@ class PlayState extends MusicBeatState
 				{
 					var difficulty:String = CoolUtil.getDifficultyFilePath();
 					
-					var newDiff:String = CoolUtil.checkJsonFilePath(PlayState.storyPlaylist[0].toLowerCase(), difficulty, storyDifficulty);
+					var newDiff:String = CoolUtil.checkJsonFilePath(Paths.formatToSongPath(PlayState.storyPlaylist[0]), difficulty, storyDifficulty);
 					if(newDiff != null) difficulty = newDiff;
 
 					trace('LOADING NEXT SONG');
