@@ -1,7 +1,7 @@
 # To Do
 
 ## Mod-related Stuff
-Add in the songs (when they are finished)
+Add in the songs (when they are finished) (one cover is there but idk)
 
 ## Minor changes
 Center the freeplay song text in freeplay menu
