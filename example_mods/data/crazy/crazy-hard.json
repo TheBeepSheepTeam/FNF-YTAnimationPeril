@@ -1,10 +1,10 @@
 {
 	"song": {
 		"speed": 3,
-		"stage": "stage",
-		"player1": "bf",
+		"stage": "crazy-joey-live-show-stage",
+		"player1": "bf-aumsum",
 		"player2": "gf",
-		"player3": null,
+		"player3": "crazy-joey",
 		"events": [],
 		"notes": [
 			{
