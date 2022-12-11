@@ -1,5 +1,9 @@
-# Friday Night Funkin' - Psych Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+# Friday Night Funkin' - YouTube Engine (Modified Psych Engine)
+This is AumSum
+
+Say hi to him pls
+
+![aumsum with microphone 3 the canonical threequel](https://user-images.githubusercontent.com/118643764/206886943-bdffd295-1ee1-4543-9da8-c506bab62979.png)
 
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
@@ -18,9 +22,9 @@ If you want video support on your mod, simply do `haxelib install hxCodec` on a 
 otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
 
 ## Credits:
-* Shadow Mario - Programmer
-* RiverOaken - Artist
-* Yoshubs - Assistant Programmer
+* Isaiah - The guy who made the idea
+* CharlesCatYT - Mod creator
+* Shadow Mario - psych engine
 
 ### Special Thanks
 * bbpanzu - Ex-Programmer
