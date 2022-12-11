@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"Scientifical",
+			"aumsum",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Crazy",
+			"joey",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Narration",
+			"aumsum-narrator",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Terrene",
+			"aumsum-earth",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "aumsum",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "It's AumSum Time!",
+	"weekName": "AumSum",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

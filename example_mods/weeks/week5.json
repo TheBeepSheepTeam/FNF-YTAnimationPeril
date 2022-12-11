@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Knowledge",
+			"blocko",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Block",
+			"blocko",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Glitcher",
+			"glitch-monster",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "lifenoggin",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Hey there! Welcome to Life Noggin!",
+	"weekName": "Blocko",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

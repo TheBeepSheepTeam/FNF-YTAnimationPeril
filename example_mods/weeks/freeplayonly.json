@@ -1,0 +1,77 @@
+{
+	"songs": [
+		[
+			"ChiVi",
+			"chivi",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Rope-Struck",
+			"chivi",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Popular-Path",
+			"chivi",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Shell-Done",
+			"sheldon",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Cringe",
+			"fastoon",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Logical",
+			"player",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Freeplay-Only Songs",
+	"weekName": "Freeplay Only",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

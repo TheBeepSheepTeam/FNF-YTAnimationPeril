@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Brainy",
+			"brainiard",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Factual",
+			"brainiac-narrator",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "brainiac",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "What if BF rap battled you?",
+	"weekName": "Brainiac",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Drawn",
+			"pencilmate",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Love-Interest",
+			"pencilmiss",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Pencil",
+			"pencil",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "pencilmation",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Pencilmation In: Getting Freaky on a Friday Night!",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

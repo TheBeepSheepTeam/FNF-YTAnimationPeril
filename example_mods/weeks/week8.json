@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Super",
+			"tony",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Top-List",
+			"tony",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Life-Hack",
+			"tony",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "super tony",
+	"weekName": "Tony Vs BF - Can you Survive and Defeat?",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

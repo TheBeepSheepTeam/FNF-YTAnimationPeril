@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Jesus-Lover",
+			"christ",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Love-of-God",
+			"jesus-lovers",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "treatsforbeasts",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "I love Jesus",
+	"weekName": "treatsforbeasts",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

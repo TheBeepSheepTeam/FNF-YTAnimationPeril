@@ -1,0 +1,50 @@
+{
+	"storyName": "Meet Arnold, Meet BF and GF",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "arnold",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Hazardous",
+			"arnold",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Finger-Cut",
+			"arnold-narrator",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Martian",
+			"snot-gub",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Arnold Week"
+}

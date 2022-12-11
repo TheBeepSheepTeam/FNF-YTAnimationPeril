@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Trampoline",
+			"brew",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Brew",
+			"brew",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "brewstew",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Brewstew - Friday Night",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

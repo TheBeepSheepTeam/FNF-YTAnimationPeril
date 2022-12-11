@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Call",
+			"hank-hanky",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Ask",
+			"hank-hanky",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "hankhanky",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Ask Hank Hanky",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

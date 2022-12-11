@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Planetary",
+			"moon",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Extraterrestrial",
+			"mars",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Never-Gonna-Get-It",
+			"earth",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "unusualplanets",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Why is BF in the Solar System?",
+	"weekName": "Unusual Planets",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

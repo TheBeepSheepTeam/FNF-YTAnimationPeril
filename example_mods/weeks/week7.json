@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"Infographic",
+			"infographic",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Hypothetical",
+			"infographic",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "infographic",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "YOU vs BF - Could You Defeat and Survive Him?",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
