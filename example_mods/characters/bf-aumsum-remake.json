@@ -1,0 +1,218 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bf aumsum idle"
+		},
+		{
+			"offsets": [
+				-45,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "bf aumsum left miss"
+		},
+		{
+			"offsets": [
+				-42,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "bf aumsum down miss"
+		},
+		{
+			"offsets": [
+				-59,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "bf aumsum right miss"
+		},
+		{
+			"offsets": [
+				-64,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "bf aumsum up miss"
+		},
+		{
+			"offsets": [
+				-45,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "bf aumsum left"
+		},
+		{
+			"offsets": [
+				-59,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "bf aumsum right"
+		},
+		{
+			"offsets": [
+				-64,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "bf aumsum up"
+		},
+		{
+			"offsets": [
+				-42,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "bf aumsum down"
+		},
+		{
+			"offsets": [
+				38,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "bf aumsum dead loop"
+		},
+		{
+			"offsets": [
+				38,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "bf aumsum dead confirm"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "bf aumsum dies",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-17,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": false,
+			"name": "bf aumsum hey"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_aumsum_new",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf-aumsum",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
