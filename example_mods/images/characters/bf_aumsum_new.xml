@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf_aumsum_new.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf aumsum dead confirm0000" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0001" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0002" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0003" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0004" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0005" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0006" x="0" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0007" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0008" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0009" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0010" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0011" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0012" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0013" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0014" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0015" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0016" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0017" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0018" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0019" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0020" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0021" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0022" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0023" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0024" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0025" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0026" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0027" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0028" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0029" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0030" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0031" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead confirm0032" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0000" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0001" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0002" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0003" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0004" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0005" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0006" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0007" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0008" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0009" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0010" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0011" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0012" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0013" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0014" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0015" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0016" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0017" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0018" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0019" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0020" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0021" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0022" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0023" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0024" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0025" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0026" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0027" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0028" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0029" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0030" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0031" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dead loop0032" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0000" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0001" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0002" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0003" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0004" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0005" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0006" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0007" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0008" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0009" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0010" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0011" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0012" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0013" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0014" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0015" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0016" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0017" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0018" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0019" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0020" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0021" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0022" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0023" x="828" y="0" width="335" height="367" frameX="-79" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0024" x="1163" y="0" width="356" height="367" frameX="-58" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0025" x="1163" y="0" width="356" height="367" frameX="-58" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0026" x="1163" y="0" width="356" height="367" frameX="-58" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0027" x="1519" y="0" width="382" height="367" frameX="-32" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0028" x="1519" y="0" width="382" height="367" frameX="-32" frameY="0" frameWidth="414" frameHeight="376"/>
+	<SubTexture name="bf aumsum dies0029" x="0" y="376" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0030" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0031" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0032" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0033" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0034" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0035" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0036" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0037" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0038" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0039" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0040" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0041" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0042" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0043" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0044" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0045" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0046" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0047" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0048" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0049" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0050" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0051" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0052" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0053" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0054" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0055" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum dies0056" x="414" y="0" width="414" height="376"/>
+	<SubTexture name="bf aumsum down0000" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0001" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0002" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0003" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0004" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0005" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0006" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0007" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0008" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0009" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0010" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0011" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0012" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0013" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down0014" x="725" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0000" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0001" x="414" y="376" width="311" height="356" frameX="0" frameY="-4" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0002" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0003" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0004" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0005" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0006" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0007" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0008" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0009" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0010" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0011" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0012" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0013" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum down miss0014" x="1032" y="376" width="307" height="360" frameX="-8" frameY="0" frameWidth="315" frameHeight="360"/>
+	<SubTexture name="bf aumsum hey0000" x="1339" y="376" width="357" height="371" frameX="-3" frameY="0" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0001" x="1339" y="376" width="357" height="371" frameX="-3" frameY="0" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0002" x="1339" y="376" width="357" height="371" frameX="-3" frameY="0" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0003" x="1339" y="376" width="357" height="371" frameX="-3" frameY="0" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0004" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0005" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0006" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0007" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0008" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0009" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0010" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0011" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0012" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0013" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0014" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0015" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0016" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0017" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0018" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0019" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0020" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0021" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0022" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0023" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum hey0024" x="0" y="752" width="357" height="368" frameX="0" frameY="-3" frameWidth="360" frameHeight="371"/>
+	<SubTexture name="bf aumsum idle0000" x="357" y="752" width="332" height="359" frameX="0" frameY="-9" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0001" x="357" y="752" width="332" height="359" frameX="0" frameY="-9" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0002" x="357" y="752" width="332" height="359" frameX="0" frameY="-9" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0003" x="357" y="752" width="332" height="359" frameX="0" frameY="-9" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0004" x="689" y="752" width="345" height="363" frameX="-9" frameY="-5" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0005" x="689" y="752" width="345" height="363" frameX="-9" frameY="-5" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0006" x="689" y="752" width="345" height="363" frameX="-9" frameY="-5" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0007" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0008" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0009" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0010" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0011" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0012" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0013" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum idle0014" x="1034" y="752" width="352" height="368" frameX="-17" frameY="0" frameWidth="369" frameHeight="368"/>
+	<SubTexture name="bf aumsum left0000" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0001" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0002" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0003" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0004" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0005" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0006" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0007" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0008" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0009" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0010" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0011" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0012" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0013" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left0014" x="1702" y="752" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0000" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0001" x="1386" y="752" width="316" height="368" frameX="0" frameY="-1" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0002" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0003" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0004" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0005" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0006" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0007" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0008" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0009" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0010" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0011" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0012" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0013" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum left miss0014" x="0" y="1121" width="308" height="369" frameX="-11" frameY="0" frameWidth="319" frameHeight="369"/>
+	<SubTexture name="bf aumsum right0000" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right0001" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right0002" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right0003" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right0004" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0005" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0006" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0007" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0008" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0009" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0010" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0011" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0012" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0013" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right0014" x="626" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0000" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right miss0001" x="308" y="1121" width="318" height="370"/>
+	<SubTexture name="bf aumsum right miss0002" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0003" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0004" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0005" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0006" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0007" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0008" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0009" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0010" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0011" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0012" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0013" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum right miss0014" x="931" y="1121" width="305" height="368" frameX="-8" frameY="-2" frameWidth="318" frameHeight="370"/>
+	<SubTexture name="bf aumsum up0000" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0001" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0002" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0003" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0004" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0005" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0006" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0007" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0008" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0009" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0010" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0011" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0012" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0013" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up0014" x="1541" y="1121" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0000" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0001" x="1236" y="1121" width="305" height="374" frameX="-9" frameY="0" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0002" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0003" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0004" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0005" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0006" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0007" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0008" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0009" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0010" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0011" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0012" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0013" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+	<SubTexture name="bf aumsum up miss0014" x="0" y="1495" width="312" height="371" frameX="0" frameY="-3" frameWidth="314" frameHeight="374"/>
+</TextureAtlas>
