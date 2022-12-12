@@ -3,8 +3,8 @@
 		"speed": 3,
 		"stage": "crazy-joey-live-show-stage",
 		"player1": "bf-aumsum",
-		"player2": "gf",
-		"player3": "crazy-joey",
+		"player2": "crazy-joey",
+		"player3": "gf",
 		"events": [],
 		"notes": [
 			{
