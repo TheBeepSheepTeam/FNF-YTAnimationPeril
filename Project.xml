@@ -157,7 +157,7 @@
 	
 	<haxeflag name="--macro" value="include('funkin')" />
 	
-	<haxeflag name="-dce no" /
+	<haxeflag name="-dce no" />
 	
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
