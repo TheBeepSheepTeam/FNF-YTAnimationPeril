@@ -48,6 +48,7 @@ class Paths
 		'weeks',
 		'fonts',
 		'scripts',
+		'haxescript',
 		'achievements',
 		'options'
 	];
