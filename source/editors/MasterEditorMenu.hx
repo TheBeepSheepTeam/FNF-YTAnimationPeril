@@ -130,7 +130,7 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new StageEditorState(), false);
 				case 'Chart Editor'://felt it would be cool maybe
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
-				case 'Eventt Editor':
+				case 'Event Editor':
 					LoadingState.loadAndSwitchState(new EventEditorState(), false);
 			}
 			FlxG.sound.music.volume = 0;
