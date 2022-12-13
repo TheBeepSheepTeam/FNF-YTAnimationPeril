@@ -2253,7 +2253,14 @@ class PlayState extends MusicBeatState
 						});
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
+						// to-do: find a way to use less lines -dmm
+						// to-do 2: compatibility for image without xml -dmm
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
+						if (!PlayState.isPixelStage) {
+							countdownGo.frames = Paths.getSparrowAtlas('go');
+							countdownGo.animation.addByPrefix('idle', 'GO!!', 24, false);
+						}
+
 						countdownGo.cameras = [camHUD];
 						countdownGo.scrollFactor.set();
 
@@ -2265,16 +2272,28 @@ class PlayState extends MusicBeatState
 						countdownGo.screenCenter();
 						countdownGo.antialiasing = antialias;
 						insert(members.indexOf(notes), countdownGo);
-						FlxTween.tween(countdownGo, {/*y: countdownGo.y + 100,*/ alpha: 0}, Conductor.crochet / 1000, {
-							ease: FlxEase.cubeInOut,
-							onComplete: function(twn:FlxTween)
-							{
+
+						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
+						if (!PlayState.isPixelStage)
+							countdownGo.animation.play('idle');
+
+						if (PlayState.isPixelStage) {
+							FlxTween.tween(countdownGo, {alpha: 0}, Conductor.crochet / 1000, {
+								ease: FlxEase.cubeInOut,
+								onComplete: function(twn:FlxTween)
+								{
+									remove(countdownGo);
+									countdownGo.destroy();
+								}
+							});
+						}
+					case 4:
+						if (!PlayState.isPixelStage) {
+							if (countdownGo.animation.curAnim.finished) {
 								remove(countdownGo);
 								countdownGo.destroy();
 							}
-						});
-						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
-					case 4:
+						}
 				}
 
 				notes.forEachAlive(function(note:Note) {
