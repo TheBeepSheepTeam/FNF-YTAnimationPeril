@@ -39,11 +39,15 @@ class Prompt extends MusicBeatSubstate
 		var op1 = 'OK';
 		var op2 = 'CANCEL';
 		
+		FlxG.sound.play(Paths.sound('scrollMenu'));
+		
 		if (option1 != null) op1 = option1;
 		if (option2 != null) op2 = option2;
 		buttonAccept = new FlxButton(473.3, 450, op1, function(){if(okc != null)okc();
+		FlxG.sound.play(Paths.sound('confirmMenu'));
 		close();} );
 		buttonNo = new FlxButton(633.3,450,op2,function(){if(cancelc != null)cancelc();
+                FlxG.sound.play(Paths.sound('cancelMenu'));
 		close();});
 		super();	
 	}
