@@ -20,7 +20,7 @@ typedef WeekFile =
 	var weekBefore:String;
 	var storyName:String;
 	var weekName:String;
-	var storyModeFlashing:Array<Int>;
+	static var storyModeFlashing:Array<Int>;
 	var freeplayColor:Array<Int>;
 	var startUnlocked:Bool;
 	var hiddenUntilUnlocked:Bool;
