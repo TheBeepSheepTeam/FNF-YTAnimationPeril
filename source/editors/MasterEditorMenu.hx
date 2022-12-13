@@ -132,7 +132,7 @@ class MasterEditorMenu extends MusicBeatState
 				case 'Chart Editor'://felt it would be cool maybe
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
 				case 'Discord Rich Editor':
-					LoadingState.loadAndSwitchState(new EventEditorState(), false);
+					LoadingState.loadAndSwitchState(new DiscordEditorState(), false);
 				case 'Event Editor':
 					LoadingState.loadAndSwitchState(new EventEditorState(), false);
 			}
