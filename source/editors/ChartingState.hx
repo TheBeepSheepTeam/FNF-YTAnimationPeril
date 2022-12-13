@@ -250,9 +250,17 @@ class ChartingState extends MusicBeatState
 		waveformSprite = new FlxSprite(GRID_SIZE, 0).makeGraphic(FlxG.width, FlxG.height, 0x00FFFFFF);
 		add(waveformSprite);
 
-		var eventIcon:FlxSprite = new FlxSprite(-GRID_SIZE - 5, -90).loadGraphic(Paths.image('eventArrow'));
+		var eventIcon:FlxSprite = new FlxSprite(0, 0);
+		if(!PlayState.isPixelStage) {
+			eventIcon.loadGraphic(Paths.image('eventArrow'));
+			eventIcon.setPosition(-GRID_SIZE - 5, -90);
+		} else {
+			eventIcon.loadGraphic(Paths.image('pixelUI/eventArrow'));
+			eventIcon.setPosition(-GRID_SIZE - 5, -90);
+		}
 		leftIcon = new HealthIcon('bf');
 		rightIcon = new HealthIcon('dad');
+
 		eventIcon.scrollFactor.set(1, 1);
 		leftIcon.scrollFactor.set(1, 1);
 		rightIcon.scrollFactor.set(1, 1);
@@ -2731,7 +2739,11 @@ class ChartingState extends MusicBeatState
 			note.sustainLength = daSus;
 			note.noteType = i[3];
 		} else { //Event note
-			note.loadGraphic(Paths.image('eventArrow'));
+			if(!PlayState.isPixelStage) {
+				note.loadGraphic(Paths.image('eventArrow'));
+			} else {
+				note.loadGraphic(Paths.image('pixelUI/eventArrow'));
+			}
 			note.eventName = getEventName(i[1]);
 			note.eventLength = i[1].length;
 			if(i[1].length < 2)
