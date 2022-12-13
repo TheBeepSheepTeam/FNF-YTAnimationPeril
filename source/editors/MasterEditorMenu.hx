@@ -24,6 +24,7 @@ class MasterEditorMenu extends MusicBeatState
 		'Week Editor',
 		'Menu Character Editor',
 		'Dialogue Editor',
+		'Discord Rich Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
 		'Chart Editor',
@@ -130,6 +131,8 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new StageEditorState(), false);
 				case 'Chart Editor'://felt it would be cool maybe
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
+				case 'Discord Rich Editor':
+					LoadingState.loadAndSwitchState(new EventEditorState(), false);
 				case 'Event Editor':
 					LoadingState.loadAndSwitchState(new EventEditorState(), false);
 			}
