@@ -5,10 +5,10 @@
 				-6,
 				0
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
 			"indices": [],
+			"fps": 38,
+			"anim": "idle",
+			"loop": false,
 			"name": "bf aumsum idle"
 		},
 		{
@@ -16,10 +16,10 @@
 				-45,
 				1
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFTmiss",
 			"indices": [],
+			"fps": 38,
+			"anim": "singLEFTmiss",
+			"loop": false,
 			"name": "bf aumsum left miss"
 		},
 		{
@@ -27,10 +27,10 @@
 				-42,
 				-8
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
 			"indices": [],
+			"fps": 38,
+			"anim": "singDOWNmiss",
+			"loop": false,
 			"name": "bf aumsum down miss"
 		},
 		{
@@ -38,10 +38,10 @@
 				-59,
 				2
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHTmiss",
 			"indices": [],
+			"fps": 38,
+			"anim": "singRIGHTmiss",
+			"loop": false,
 			"name": "bf aumsum right miss"
 		},
 		{
@@ -49,10 +49,10 @@
 				-64,
 				6
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
 			"indices": [],
+			"fps": 38,
+			"anim": "singUPmiss",
+			"loop": false,
 			"name": "bf aumsum up miss"
 		},
 		{
@@ -60,9 +60,6 @@
 				-45,
 				1
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
 			"indices": [
 				0,
 				1,
@@ -77,6 +74,9 @@
 				10,
 				11
 			],
+			"fps": 38,
+			"anim": "singLEFT",
+			"loop": false,
 			"name": "bf aumsum left"
 		},
 		{
@@ -84,9 +84,6 @@
 				-59,
 				2
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
 			"indices": [
 				0,
 				1,
@@ -101,6 +98,9 @@
 				10,
 				11
 			],
+			"fps": 38,
+			"anim": "singRIGHT",
+			"loop": false,
 			"name": "bf aumsum right"
 		},
 		{
@@ -108,9 +108,6 @@
 				-64,
 				6
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
 			"indices": [
 				0,
 				1,
@@ -125,6 +122,9 @@
 				10,
 				11
 			],
+			"fps": 38,
+			"anim": "singUP",
+			"loop": false,
 			"name": "bf aumsum up"
 		},
 		{
@@ -132,9 +132,6 @@
 				-42,
 				-8
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
 			"indices": [
 				0,
 				1,
@@ -149,6 +146,9 @@
 				10,
 				11
 			],
+			"fps": 38,
+			"anim": "singDOWN",
+			"loop": false,
 			"name": "bf aumsum down"
 		},
 		{
@@ -156,10 +156,10 @@
 				38,
 				0
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "deathLoop",
 			"indices": [],
+			"fps": 38,
+			"anim": "deathLoop",
+			"loop": false,
 			"name": "bf aumsum dead loop"
 		},
 		{
@@ -167,22 +167,22 @@
 				38,
 				0
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "deathConfirm",
 			"indices": [],
+			"fps": 38,
+			"anim": "deathConfirm",
+			"loop": false,
 			"name": "bf aumsum dead confirm"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				38,
 				0
 			],
+			"indices": [],
+			"fps": 38,
 			"anim": "firstDeath",
-			"fps": 24,
-			"name": "bf aumsum dies",
-			"indices": []
+			"loop": false,
+			"name": "bf aumsum dies"
 		},
 		{
 			"offsets": [
@@ -190,7 +190,7 @@
 				3
 			],
 			"indices": [],
-			"fps": 24,
+			"fps": 38,
 			"anim": "hey",
 			"loop": false,
 			"name": "bf aumsum hey"
