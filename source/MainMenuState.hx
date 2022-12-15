@@ -25,6 +25,11 @@ import flixel.input.keyboard.FlxKey;
 
 using StringTools;
 
+/* typedef MainMenuData =
+{
+	options:Array<String>,
+}*/
+	
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC
@@ -40,7 +45,7 @@ class MainMenuState extends MusicBeatState
 		#if MODS_ALLOWED 'mods', #end
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		//#if !switch 'donate', #end
+		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -89,13 +94,12 @@ class MainMenuState extends MusicBeatState
 		originY = FlxG.height - 50;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		bg.color = 0xFF8029B6;
 		add(bg);
 
 		camFollow = new FlxObject(0, 0, 1, 1);
@@ -152,11 +156,11 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "FNF: YT Animation Peril | Psych Engine v" + psychEngineVersion, 12);
-		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
+		var versionShitFunni:FlxText = new FlxText(12, FlxG.height - 44, 0, "FNF: YT Animation Peril | YouTube Engine v0.6", 12);
+		versionShitFunni.scrollFactor.set();
+		versionShitFunni.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShitFunni);
+		var versionShit,FlxText = new FlxText(12, FlxG.height - 24, 0, "Psych Engine v0.6.3 | Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -248,7 +252,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'donate')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('https://discord.gg/mxkHsmTS6r');
 				}
 				else
 				{
