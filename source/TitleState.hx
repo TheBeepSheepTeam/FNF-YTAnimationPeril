@@ -362,6 +362,11 @@ class TitleState extends MusicBeatState
 		titleText.updateHitbox();
 		// titleText.screenCenter(X);
 		add(titleText);
+		
+		var engineversionText:FlxText = new FlxText(5, FlxG.height - 18, 0, "FNF: YT Animation Peril / YouTube Engine v0.6", 12);
+		engineversionText.scrollFactor.set();
+		engineversionText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT);
+		add(engineversionText);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
 		logo.screenCenter();
