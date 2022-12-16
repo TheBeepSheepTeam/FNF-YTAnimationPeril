@@ -134,14 +134,15 @@ class TitleState extends MusicBeatState
 		ClientPrefs.loadPrefs();
 
 		#if CHECK_FOR_UPDATES
-		if(ClientPrefs.checkForUpdates && !closedState) {
+                if (InternetConnection.isAvailable()) {
+		 if(ClientPrefs.checkForUpdates && !closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/TheBeepSheepTeam/FNF-YTAnimationPeril/main/gitVersion.txt");
 
 			http.onData = function (data:String)
 			{
 				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
+				var curVersion:String = 0.6;
 				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
 					trace('versions arent matching!');
@@ -150,10 +151,13 @@ class TitleState extends MusicBeatState
 			}
 
 			http.onError = function (error) {
-				trace('error: $error');
+				trace('BRUH THERE IS AN ERROR NOOOOO: $error');
 			}
 
 			http.request();
+		 }
+		else
+		trace('its offline noooo');
 		}
 		#end
 
