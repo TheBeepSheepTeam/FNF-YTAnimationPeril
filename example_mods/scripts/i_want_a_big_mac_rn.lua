@@ -1,5 +1,6 @@
 dnotehitlol = 0 --made by raylen/mrplate please credit if used
 sadfasd = 0 -- unused
+debugmode = false
 font = "vcr.ttf" -- the font that the text will use.
 cmoffset = -4
 cmy = 20
@@ -57,15 +58,25 @@ function goodNoteHit(id, direction, noteType, isSustainNote)
 	-- noteData: 0 = Left, 1 = Down, 2 = Up, 3 = Right
 	-- noteType: The note type string/tag
 	-- isSustainNote: If it's a hold note, can be either true or false
+     if not debugmode then
       if not isSustainNote then    
          notehitlol = notehitlol + 1;
          setTextString('tnh', 'Total Notes Hit: ' .. tostring(notehitlol))
      end -- NOTE I DID NOT MAKE THIS FRANTASTIC24 MADE THIS!
+    end
 
 end
 
 
 function onUpdate(elapsed)
+   if debugmode then
+    setTextString('cm', 'BPM: ' .. getProperty('curBpm'))
+    setTextString('sick', 'Stage: ' .. getProperty('curStage'))
+    setTextString('good', 'BF Section: ' .. getProperty('mustHitSection'))
+    setTextString('bad', 'Beat: ' .. getProperty('curBeat'))
+    setTextString('shit', 'Step: ' .. getProperty('curSteo'))
+    setTextString('miss', 'Section: ' .. getProperty('curSection'))
+   else
     notehitloltosting = tostring(notehitlol)
     setTextString('cm', 'wombocombos: ' .. getProperty('combo'))
     setTextString('sick', 'FRFR: ' .. getProperty('sicks'))
@@ -75,4 +86,5 @@ function onUpdate(elapsed)
     setTextString('miss', 'kys: ' .. getProperty('songMisses'))
 	-- start of "update", some variables weren't updated yet
     -- setTextString('tnh', 'Total Notes Hit: ' + 1)
+   end
 end
