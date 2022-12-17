@@ -33,7 +33,7 @@ end
 
 
 function onCreatePost()
-    makeLuaText('songText', songName .. ' - ' .. getProperty('storyDifficultyText') .. ' | YouTube Engine (PE 0.6.3) | ' .. Quotes[getRandomInt(1, 20)], 0, 2, 552);
+    makeLuaText('songText', songName .. ' - ' .. getProperty('storyDifficultyText') .. ' | ' .. Quotes[getRandomInt(1, 20)], 0, 2, 552);
     setTextAlignment('songText', 'left');
     setTextSize('songText', 15);
     setTextBorder('songText', 1, '000000');
