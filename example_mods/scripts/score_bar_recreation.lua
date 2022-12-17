@@ -9,10 +9,10 @@ function onCreate()
   if not getPropertyFromClass('ClientPrefs', 'hideHud') then addLuaText('cornerMark') end
 function onUpdate()
     if not getProperty('ratingName') == '?' then
-        setProperty('scoreTxt.text', scoreName .. ': ' .. getProperty('songScore') .. ' | ' .. missesName .. ': ' .. getProperty('songMisses') .. ' |  Accuracy: ' .. floorInDecimal(rating*100, 2) .. ' | ' .. ratingNames .. ': ' .. getProperty('ratingName') .. ' (' .. round(getProperty('ratingPercent') * 100, 2) .. '%) - ' .. getProperty('ratingFC'))
+        setProperty('scoreTxt.text', scoreName .. ': ' .. getProperty('songScore') .. ' // ' .. missesName .. ': ' .. getProperty('songMisses') .. ' //  Accuracy: ' .. floorInDecimal(rating*100, 2) .. ' // ' .. ratingNames .. ': ' .. getProperty('ratingName') .. ' (' .. round(getProperty('ratingPercent') * 100, 2) .. '%) - ' .. getProperty('ratingFC'))
     end
     if getProperty('ratingName') == '?' then
-        setProperty('scoreTxt.text', scoreName .. ': ' .. getProperty('songScore') .. ' | ' .. missesName .. ': ' .. getProperty('songMisses') .. ' | Accurarcy: ? | ' .. ratingNames .. ': ' .. getProperty('ratingName'))
+        setProperty('scoreTxt.text', scoreName .. ': ' .. getProperty('songScore') .. ' // ' .. missesName .. ': ' .. getProperty('songMisses') .. ' // Accurarcy: ? // ' .. ratingNames .. ': ' .. getProperty('ratingName'))
     end
 end
 function round(x, n) --https://stackoverflow.com/questions/18313171/lua-rounding-numbers-and-then-truncate
