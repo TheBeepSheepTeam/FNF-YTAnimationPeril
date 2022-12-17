@@ -27,8 +27,8 @@ function onCreate()
     setTextSize('sick', 20);
     addLuaText("sick");
     setTextFont('sick', font)
-    setTextAlignment('NICE', 'left')
-    setObjectCamera("ok", 'other');
+    setTextAlignment('sick', 'left')
+    setObjectCamera("good", 'other');
     setTextSize('good', 20);
     addLuaText("good");
     setTextFont('good', font)
@@ -78,12 +78,12 @@ function onUpdate(elapsed)
     setTextString('miss', 'Section: ' .. getProperty('curSection'))
    else
     notehitloltosting = tostring(notehitlol)
-    setTextString('cm', 'wombocombos: ' .. getProperty('combo'))
-    setTextString('sick', 'FRFR: ' .. getProperty('sicks'))
-    setTextString('good', 'meh: ' .. getProperty('goods'))
-    setTextString('bad', 'git gud: ' .. getProperty('bads'))
-    setTextString('shit', 'fuckups: ' .. getProperty('shits'))
-    setTextString('miss', 'kys: ' .. getProperty('songMisses'))
+    setTextString('cm', 'Combos: ' .. getProperty('combo'))
+    setTextString('sick', 'Sick: ' .. getProperty('sicks'))
+    setTextString('good', 'Good: ' .. getProperty('goods'))
+    setTextString('bad', 'Bad: ' .. getProperty('bads'))
+    setTextString('shit', 'Shit: ' .. getProperty('shits'))
+    setTextString('miss', 'Upset YouTube: ' .. getProperty('songMisses'))
 	-- start of "update", some variables weren't updated yet
     -- setTextString('tnh', 'Total Notes Hit: ' + 1)
    end
