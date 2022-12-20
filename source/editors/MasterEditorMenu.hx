@@ -27,6 +27,9 @@ class MasterEditorMenu extends MusicBeatState
 		'Discord Rich Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
+		#if MODS_ALLOWED
+		'File Explorer',
+		#end
 		'Chart Editor',
 		'Stage Editor',
 		'Event Editor'

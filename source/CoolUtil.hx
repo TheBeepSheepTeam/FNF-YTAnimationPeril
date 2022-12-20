@@ -39,6 +39,43 @@ class CoolUtil
 		trace(snap);
 		return (m / snap);
 	}
+	
+		public static function loadUIStuff(sprite:flixel.FlxSprite, ?anim:String) {
+		sprite.loadGraphic(Paths.image("yce/uiIcons", "preload"), true, 16, 16);
+		var anims = [
+			"up", 
+			"refresh", 
+			"delete", 
+			"copy", 
+			"paste", 
+			"x", 
+			"swap", 
+			"folder", 
+			"play", 
+			"edit", 
+			"settings", 
+			"song", 
+			"add", 
+			"trophy", 
+			"up",
+			"down", 
+			"lock", 
+			"pack"];
+
+		for(k=>a in anims) {
+			sprite.animation.add(a, [k], 0, false);
+		}
+		if (anim != null) sprite.animation.play(anim);
+	}
+
+	public static function openFolder(p:String) {
+		p = p.replace("/", "\\").replace("\\\\", "\\");
+		#if windows
+			Sys.command('explorer "$p"');	
+		#elseif linux
+			Sys.command('nautilus', [p]);	
+		#end
+	}
 
 	public static function saveFile(settings:FileSaveContext)
 	{
