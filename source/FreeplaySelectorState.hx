@@ -163,16 +163,7 @@ class FreeplaySelectorState extends MusicBeatState
 					{
 						FlxTween.tween(FlxG.camera, {zoom: 2.1}, 2, {ease: FlxEase.expoInOut});
             
-						if (ClientPrefs.flashing)
-						{
-							FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
-							{
-								MusicBeatState.switchState(new FreeplayState(weeks[curSelected]));
-							});
-						}
-						else
-						{
-							new FlxTimer().start(1, function(tmr:FlxTimer)
+						FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
 							{
 								MusicBeatState.switchState(new FreeplayState(weeks[curSelected]));
 							});
