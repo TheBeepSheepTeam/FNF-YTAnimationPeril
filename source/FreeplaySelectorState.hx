@@ -65,8 +65,8 @@ class FreeplaySelectorState extends MusicBeatState
 		FlxG.cameras.add(camAchievement);
 		FlxCamera.defaultCameras = [camGame];
 
-		transIn = FlxTransitionableState.defaultTransIn;
-		transOut = FlxTransitionableState.defaultTransOut;
+		//transIn = FlxTransitionableState.defaultTransIn;
+		//transOut = FlxTransitionableState.defaultTransOut;
 
 		persistentUpdate = persistentDraw = true;
 
