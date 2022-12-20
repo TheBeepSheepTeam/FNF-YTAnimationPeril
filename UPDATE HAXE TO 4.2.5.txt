@@ -7,3 +7,4 @@ UPDATE HAXE TO 4.2.5
 UPDATE HAXE TO 4.2.5
 UPDATE HAXE TO 4.2.5
 UPDATE HAXE TO 4.2.5
+and update flixel and flixel addons too idc
