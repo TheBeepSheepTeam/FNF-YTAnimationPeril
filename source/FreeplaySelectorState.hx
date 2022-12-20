@@ -168,7 +168,6 @@ class FreeplaySelectorState extends MusicBeatState
 								MusicBeatState.switchState(new FreeplayState(weeks[curSelected]));
 							});
 						}
-					}
 				});
 			}
 		}
