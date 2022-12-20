@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "idle",
 			"loop": false,
-			"name": "chivi idle"
-		},
-		{
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "chivi up"
+			"fps": 24,
+			"name": "chivi up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				79,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "chivi left"
+			"fps": 24,
+			"name": "chivi left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "chivi down"
+			"fps": 24,
+			"name": "chivi down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-70,
 				-3
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "chivi right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "idle",
 			"loop": false,
-			"name": "chivi right"
+			"name": "chivi idle"
 		}
 	],
 	"no_antialiasing": false,
@@ -66,14 +66,14 @@
 	"image": "characters/chivi",
 	"position": [
 		0,
-		50
+		80
 	],
 	"healthicon": "chivi",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		255,
+		151,
+		0
 	],
 	"camera_position": [
 		-30,
