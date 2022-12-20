@@ -41,7 +41,7 @@ class FreeplaySelectorState extends MusicBeatState
 	// image name
 	var items:Array<String> = ["menu_youtube", "menu_extras", "menu_covers"];
 
-	var weeks:Array<Array<String>> = [
+	var weeks:Null<flixel.addons.transition.TransitionData> = [
     ["week1", "week2", "week3", "week4", "week5", "week6", "week7", "week8", "week9", "week10", "week11", "week12", "week13"],
 		["freeplayonly"],
 		["freeplayonlycovers"]
