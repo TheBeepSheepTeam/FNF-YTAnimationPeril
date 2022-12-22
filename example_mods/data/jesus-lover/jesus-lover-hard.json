@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "bf-pixel-opponent",
+		"player2": "monster",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -2474,7 +2474,7 @@
 		"song": "Jesus Lover",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "stage",
+		"stage": "spooky",
 		"speed": 2,
 		"bpm": 108
 	}
