@@ -2,9 +2,9 @@
 	"song": {
 		"speed": 2.9,
 		"stage": "stage",
-		"player1": "bf",
-		"player2": "gf",
-		"player3": null,
+		"player1": "bf-chivi",
+		"player2": "null",
+		"player3": "chivi",
 		"events": [],
 		"notes": [
 			{
