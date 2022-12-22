@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf",
-		"player2": "bf-pixel-opponent",
+		"player2": "pico",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -3033,7 +3033,7 @@
 		"song": "Call",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "spooky",
+		"stage": "limo",
 		"speed": 2,
 		"bpm": 96
 	}
