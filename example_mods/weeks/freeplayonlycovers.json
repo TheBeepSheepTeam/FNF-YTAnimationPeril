@@ -1,4 +1,16 @@
 {
+	"storyName": "Covers",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"Schooled",
@@ -12,6 +24,15 @@
 		[
 			"Confronting-Yourself",
 			"damn-seconds",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fulmination",
+			"aumsum",
 			[
 				146,
 				113,
@@ -37,23 +58,11 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"difficulties": "hard",
 	"weekCharacters": [
 		"dad",
 		"bf",
 		"gf"
 	],
-	"storyName": "Covers",
-	"weekName": "funni covers",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": true,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "funni covers"
 }
