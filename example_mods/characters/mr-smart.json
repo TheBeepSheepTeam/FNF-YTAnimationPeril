@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 28,
+			"name": "mr smart idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				14
+			],
+			"anim": "singUP",
+			"fps": 28,
+			"name": "mr smart up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				-4
+			],
+			"anim": "singLEFT",
+			"fps": 28,
+			"name": "mr smart left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				-11
+			],
+			"anim": "singDOWN",
+			"fps": 28,
+			"name": "mr smart down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 28,
+			"name": "mr smart right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mr_smart_assets",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "mrsmart",
+	"flip_x": false,
+	"healthbar_colors": [
+		121,
+		168,
+		214
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 3.30000000000001,
+	"scale": 1
+}
