@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				27,
+				525
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singUP",
+			"indices": [],
+			"name": "player up"
+		},
+		{
+			"offsets": [
+				50,
+				-13
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "player left"
+		},
+		{
+			"offsets": [
+				5,
+				-46
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "player down"
+		},
+		{
+			"offsets": [
+				-61,
+				-60
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "player right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "idle",
+			"indices": [],
+			"name": "player idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/HOLY_SHIT_IS_THAT_PLAYER_FROM_GAMETOONS",
+	"position": [
+		0,
+		260
+	],
+	"healthicon": "player",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		92,
+		8
+	],
+	"camera_position": [
+		30,
+		60
+	],
+	"sing_duration": 3.30000000000001,
+	"scale": 0.8
+}
