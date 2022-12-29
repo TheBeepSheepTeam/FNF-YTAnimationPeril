@@ -6,7 +6,10 @@ function onCreate()
   setTextAlignment('cornerMark', 'RIGHT')
   setTextBorder("cornerMark", 2, '000000')
   setTextSize('cornerMark', 18)
-  if not getPropertyFromClass('ClientPrefs', 'hideHud') then addLuaText('cornerMark') end
+  if not getPropertyFromClass('ClientPrefs', 'hideHud') then 
+  addLuaText('cornerMark') 
+end
+end
 function onUpdate()
     if not getProperty('ratingName') == '?' then
         setProperty('scoreTxt.text', scoreName .. ': ' .. getProperty('songScore') .. ' // ' .. missesName .. ': ' .. getProperty('songMisses') .. ' //  Accuracy: ' .. floorInDecimal(rating*100, 2) .. ' // ' .. ratingNames .. ': ' .. getProperty('ratingName') .. ' (' .. round(getProperty('ratingPercent') * 100, 2) .. '%) - ' .. getProperty('ratingFC'))
