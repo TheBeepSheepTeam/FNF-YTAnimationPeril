@@ -1,0 +1,128 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "brew idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "brew left",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "brew down",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				6
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "brew up",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "brew right",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
+	"image": "characters/brewstew_assets",
+	"position": [
+		200,
+		300
+	],
+	"healthicon": "brew",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		102,
+		203
+	],
+	"camera_position": [
+		20,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

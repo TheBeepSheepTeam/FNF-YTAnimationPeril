@@ -1,62 +1,68 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				27,
 				525
 			],
-			"loop": false,
-			"fps": 40,
 			"anim": "singUP",
-			"indices": [],
-			"name": "player up"
+			"fps": 40,
+			"name": "player up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				50,
 				-13
 			],
-			"loop": false,
-			"fps": 40,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "player left"
+			"fps": 40,
+			"name": "player left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				5,
 				-46
 			],
-			"loop": false,
-			"fps": 40,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "player down"
+			"fps": 40,
+			"name": "player down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-61,
 				-60
 			],
-			"loop": false,
-			"fps": 40,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "player right"
+			"fps": 40,
+			"name": "player right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 40,
 			"anim": "idle",
-			"indices": [],
-			"name": "player idle"
+			"fps": 40,
+			"name": "player idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
+	"gameover_properties": [
+		"bf-dead",
+		"fnf_loss_sfx",
+		"gameOver",
+		"gameOverEnd"
+	],
 	"image": "characters/HOLY_SHIT_IS_THAT_PLAYER_FROM_GAMETOONS",
 	"position": [
 		0,
@@ -65,9 +71,9 @@
 	"healthicon": "player",
 	"flip_x": false,
 	"healthbar_colors": [
-		240,
-		92,
-		8
+		198,
+		37,
+		40
 	],
 	"camera_position": [
 		30,

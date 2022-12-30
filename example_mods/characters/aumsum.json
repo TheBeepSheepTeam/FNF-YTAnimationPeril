@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "aumsum idle"
+			"fps": 24,
+			"name": "aumsum idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				58,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "aumsum left"
+			"fps": 24,
+			"name": "aumsum left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-2,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "aumsum down"
+			"fps": 24,
+			"name": "aumsum down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				6,
 				1
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "aumsum up"
+			"fps": 24,
+			"name": "aumsum up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "aumsum right"
+			"fps": 24,
+			"name": "aumsum right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -71,9 +71,9 @@
 	"healthicon": "aumsum",
 	"flip_x": false,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		255,
+		255,
+		255
 	],
 	"camera_position": [
 		0,
