@@ -3,8 +3,8 @@
 		"speed": 2.9,
 		"stage": "chivi-stage",
 		"player1": "bf-chivi",
-		"player2": "gf-none",
-		"player3": "chivi",
+		"player2": "chivi",
+		"player3": "gf-none",
 		"events": [],
 		"notes": [
 			{
