@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf_chivi_cart.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf cart down0000" x="0" y="0" width="539" height="532" frameX="0" frameY="-5" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0001" x="0" y="0" width="539" height="532" frameX="0" frameY="-5" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0002" x="0" y="0" width="539" height="532" frameX="0" frameY="-5" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0003" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0004" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0005" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0006" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0007" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0008" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0009" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0010" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0011" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0012" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0013" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0014" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart down0015" x="539" y="0" width="532" height="537" frameX="0" frameY="0" frameWidth="539" frameHeight="537"/>
+	<SubTexture name="bf cart idle0000" x="1071" y="0" width="548" height="524" frameX="0" frameY="-29" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0001" x="1071" y="0" width="548" height="524" frameX="0" frameY="-29" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0002" x="1071" y="0" width="548" height="524" frameX="0" frameY="-29" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0003" x="1071" y="0" width="548" height="524" frameX="0" frameY="-29" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0004" x="1619" y="0" width="522" height="538" frameX="-10" frameY="-15" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0005" x="1619" y="0" width="522" height="538" frameX="-10" frameY="-15" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0006" x="1619" y="0" width="522" height="538" frameX="-10" frameY="-15" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0007" x="2141" y="0" width="528" height="547" frameX="-8" frameY="-6" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0008" x="2141" y="0" width="528" height="547" frameX="-8" frameY="-6" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0009" x="2141" y="0" width="528" height="547" frameX="-8" frameY="-6" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0010" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0011" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0012" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0013" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0014" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0015" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0016" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0017" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0018" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart idle0019" x="2669" y="0" width="532" height="553" frameX="-6" frameY="0" frameWidth="548" frameHeight="553"/>
+	<SubTexture name="bf cart left0000" x="3201" y="0" width="532" height="555"/>
+	<SubTexture name="bf cart left0001" x="3201" y="0" width="532" height="555"/>
+	<SubTexture name="bf cart left0002" x="3201" y="0" width="532" height="555"/>
+	<SubTexture name="bf cart left0003" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0004" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0005" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0006" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0007" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0008" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0009" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0010" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0011" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0012" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0013" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0014" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart left0015" x="0" y="555" width="532" height="555"/>
+	<SubTexture name="bf cart right0000" x="532" y="555" width="532" height="551" frameX="0" frameY="-1" frameWidth="532" frameHeight="552"/>
+	<SubTexture name="bf cart right0001" x="532" y="555" width="532" height="551" frameX="0" frameY="-1" frameWidth="532" frameHeight="552"/>
+	<SubTexture name="bf cart right0002" x="532" y="555" width="532" height="551" frameX="0" frameY="-1" frameWidth="532" frameHeight="552"/>
+	<SubTexture name="bf cart right0003" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0004" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0005" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0006" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0007" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0008" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0009" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0010" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0011" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0012" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0013" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0014" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart right0015" x="1064" y="555" width="532" height="552"/>
+	<SubTexture name="bf cart up0000" x="1596" y="555" width="532" height="561"/>
+	<SubTexture name="bf cart up0001" x="1596" y="555" width="532" height="561"/>
+	<SubTexture name="bf cart up0002" x="1596" y="555" width="532" height="561"/>
+	<SubTexture name="bf cart up0003" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0004" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0005" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0006" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0007" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0008" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0009" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0010" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0011" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0012" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0013" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0014" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+	<SubTexture name="bf cart up0015" x="2128" y="555" width="532" height="557" frameX="0" frameY="-4" frameWidth="532" frameHeight="561"/>
+</TextureAtlas>
