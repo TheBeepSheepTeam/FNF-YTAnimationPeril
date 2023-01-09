@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-12,
+				4
+			],
+			"indices": [],
+			"fps": 45,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "chivi cart right"
+		},
+		{
+			"offsets": [
+				-12,
+				3
+			],
+			"indices": [],
+			"fps": 45,
+			"anim": "singUP",
+			"loop": false,
+			"name": "chivi cart up"
+		},
+		{
+			"offsets": [
+				-12,
+				0
+			],
+			"indices": [],
+			"fps": 45,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "chivi cart left"
+		},
+		{
+			"offsets": [
+				-12,
+				-12
+			],
+			"indices": [],
+			"fps": 45,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "chivi cart down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 40,
+			"anim": "idle",
+			"loop": true,
+			"name": "chivi cart idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/chivi_cart",
+	"position": [
+		80,
+		250
+	],
+	"healthicon": "chivi",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		151,
+		0
+	],
+	"camera_position": [
+		100,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
