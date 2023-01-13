@@ -9,7 +9,7 @@ local Quotes = {
     "No OpenFL?",
     "MOM GET THE CAMERA",
     "YouTube is gonna copyright strike you if you die!",
-    "damn bro you got the whole squad laughing."
+    "damn bro you got the whole squad laughing.",
     "DONT PUT AUMSUM IN DALL E WORST MISTAKE OF MY LIFE",
     "oh noes arnold got his finger cut",
     "Hey there! Welcome to Life Noggin",
