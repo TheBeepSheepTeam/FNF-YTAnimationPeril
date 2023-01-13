@@ -21,7 +21,7 @@ local Quotes = {
     "I've over dosed on ketamine and I'm going to die",
     "Oh, AumSum.",
     "Earth, let me explain.",
-    "*casually lifts down his mask* Hi. - Dream, October 2022"
+    "*casually lifts down his mask* Hi. - Dream, October 2022",
     "hell nah aumsum have merch (its in www.aumsum.com)",
     "watch yo tone mf",
     "woah. I'm a rapper! - gametoons player",
