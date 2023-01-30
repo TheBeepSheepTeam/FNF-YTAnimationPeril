@@ -10,15 +10,6 @@
 			]
 		],
 		[
-			"Cloned",
-			"bob",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
 			"Scar",
 			"scarred-bob",
 			[
@@ -26,8 +17,16 @@
 				113,
 				253
 			]
-		]
-	],
+		],
+		[
+			"Cloned",
+			"robert",
+			[
+				146,
+				113,
+				253
+			]
+		],
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "bob",
