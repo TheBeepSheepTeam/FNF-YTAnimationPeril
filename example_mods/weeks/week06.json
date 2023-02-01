@@ -1,4 +1,20 @@
 {
+	"storyName": "Znakomtes', eto Bob",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "bob",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Bob",
@@ -27,23 +43,7 @@
 				253
 			]
 		],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "bob",
-	"difficulties": "hard",
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"storyName": "Znakomtes' Eto Bob",
-	"weekName": "Bob",
-	"freeplayColor": [
-		146,
-		113,
-		253
 	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "Bob Week"
 }
