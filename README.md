@@ -5,6 +5,11 @@ Say hi to him pls
 
 ![aumsum with microphone 3 the canonical threequel](https://user-images.githubusercontent.com/118643764/206886943-bdffd295-1ee1-4543-9da8-c506bab62979.png)
 
+Ok guys I made a [new repo](https://github.com/TheBeepSheepTeam/FNF-YTAnimationPeril-New) for this mod 
+cuz of the conflicts from the original Psych repo lol
+
+**- KookerFoxYT/CharlesCatYT**
+
 ## Installation:
 You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
 
