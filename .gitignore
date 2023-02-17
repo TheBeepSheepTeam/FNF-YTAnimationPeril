@@ -6,6 +6,7 @@ art/build_x64-officialrelease.bat
 art/test_x64-debug-officialrelease.bat
 
 ### VS Code
+# Export folder is put here so the source code won't get bloated into gigabytes.
 export/*
 .vscode/*
 *.code-workspace
